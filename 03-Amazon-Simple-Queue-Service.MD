@@ -17,3 +17,6 @@
   6. Customization – Your queues don't have to be exactly alike—for example, you can set a default delay on a queue. You can store the contents of messages larger than 256 KB using Amazon Simple Storage Service (Amazon S3) or Amazon DynamoDB, with Amazon SQS holding a pointer to the Amazon S3 object, or you can split a large message into smaller messages. 
 
   follow this link for more steps about SNS service ([*] - https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html )
+
+
+  note: bunch of notification you want to send for external user at a time 50 notification or 100 or 1000 or lac or milions we should go with SQS,SWf. i dont have knowledge on these services and follow the aficial docs from aws 

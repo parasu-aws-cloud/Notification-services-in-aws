@@ -11,4 +11,6 @@ For example, you can send marketing emails such as special offers, transactional
 
 follow for more pdfs and lick ([*] - https://docs.aws.amazon.com/ses/latest/dg/Welcome.html )
 
-note: you are using ses service only communicating with your own domain we can go with ses.so internally you cn send the notification. you can configure on-prime or off-prime that does't matter exchange email server under your domain
+note1: you are using ses service only communicating with your own domain we can go with ses.so internally you cn send the notification. you can configure on-prime or off-prime that does't matter exchange email server under your domain
+
+note2: you have different regions : cross region notification we have to write json policy here using json. one component suficient if want track all components which is residing at different accounts and different regions.we cloud be.   
