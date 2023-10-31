@@ -10,3 +10,5 @@ Amazon Simple Email Service (SES) is a cloud-based email service that provides c
 For example, you can send marketing emails such as special offers, transactional emails such as order confirmations, and other types of correspondence such as newsletters. When you use Amazon SES to receive mail, you can develop software solutions such as email autoresponders, email unsubscribe systems, and applications that generate customer support tickets from incoming emails.
 
 follow for more pdfs and lick ([*] - https://docs.aws.amazon.com/ses/latest/dg/Welcome.html )
+
+note: you are using ses service only communicating with your own domain we can go with ses.so internally you cn send the notification. you can configure on-prime or off-prime that does't matter exchange email server under your domain

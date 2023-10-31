@@ -59,3 +59,5 @@
     note: SNS in the secnce if you have 3dr party email server(domain) yahoo.com ,gmail.com,outlook.com ,SNS can support http and https protocol.
 
     example: app1 data center at singapure and you purchased domain from gmail this data center at us.singapore region to us region publically you need to send the notification by using those protocals. then the email nothing but respective subscriber recieve the notification.
+
+    note : you are using out region email server we can go with sns service.
