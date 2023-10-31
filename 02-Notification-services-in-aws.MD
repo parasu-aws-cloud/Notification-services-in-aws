@@ -55,3 +55,7 @@
         Amazon SNS has no upfront costs. You pay based on the number of messages that you publish, the number of notifications that you deliver, and any additional API calls for managing topics and subscriptions. Delivery pricing varies by endpoint type. You can get started for free with the Amazon SNS free tier.
    
     follow this link for more steps about SNS service:  [*] - https://docs.aws.amazon.com/sns/latest/dg/welcome.html  .
+
+    note: SNS in the secnce if you have 3dr party email server(domain) yahoo.com ,gmail.com,outlook.com ,SNS can support http and https protocol.
+
+    example: app1 data center at singapure and you purchased domain from gmail this data center at us.singapore region to us region publically you need to send the notification by using those protocals. then the email nothing but respective subscriber recieve the notification.
