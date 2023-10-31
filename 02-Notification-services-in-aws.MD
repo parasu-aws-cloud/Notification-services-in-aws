@@ -1,6 +1,6 @@
 ##### Notification-services-in-aws
 
-1. What is Amazon SNS?
+***  What is Amazon SNS? ***
 
    * Amazon Simple Notification Service (Amazon SNS) is a managed service that provides message delivery from publishers to subscribers (also known as producers and consumers). Publishers communicate asynchronously with subscribers by sending messages to a topic, which is a logical access point and communication channel. Clients can subscribe to the SNS topic and receive published messages using a supported endpoint type, such as Amazon Kinesis Data Firehose, Amazon SQS, AWS Lambda, HTTP, email, mobile push notifications, and mobile text messages (SMS).
 
@@ -50,4 +50,8 @@
 
       You can also establish a private connection between Amazon SNS and your virtual private cloud (VPC). for more information, see Internetwork traffic privacy([*] - https://docs.aws.amazon.com/sns/latest/dg/sns-internetwork-traffic-privacy.html ).
 
+      * Pricing for Amazon SNS:
+        
+        Amazon SNS has no upfront costs. You pay based on the number of messages that you publish, the number of notifications that you deliver, and any additional API calls for managing topics and subscriptions. Delivery pricing varies by endpoint type. You can get started for free with the Amazon SNS free tier.
    
+    follow this link for more steps about SNS service:  [*] - https://docs.aws.amazon.com/sns/latest/dg/welcome.html  .
