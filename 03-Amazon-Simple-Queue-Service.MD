@@ -39,7 +39,9 @@
       * up to 300 messeges per second or 3000 messeges if batch them into 10.
       * Exactly once processing; duplicates are not introduced into the queue.
       * first in first out delivery; preserves the order in which they were recieved  
+    ![Alt text](<Screenshot 2023-11-02 152311.png>)
 
+    ![Alt text](<Screenshot 2023-11-02 152403.png>)
      Other notes about SQS:
      
       * unlimited messases and queues
